@@ -1,9 +1,7 @@
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.pyplot as plt
 
-path = "/Users/justinhughes/downloads/nvt.xyz"
-
-/Users/justinhughes/PycharmProjects/untitled1
+path = raw_input("Enter file path >> ")
 
 with open(path) as xyzFile:
     coords = xyzFile.readlines()
